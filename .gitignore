@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+<<<<<<< HEAD
+#data/raw/
+#data/processed/
+.ipynb_checkpoints/
+=======
+data/raw/
+data/processed/
+.ipynb_checkpoints/
+>>>>>>> 90c801ef5ff22e6006cc48cf0fbc1086a307ae5e
