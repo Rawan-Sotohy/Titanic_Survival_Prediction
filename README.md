@@ -12,13 +12,16 @@ titanic-survival-prediction/
 │   ├── raw/             # Original raw CSV files (train/test)
 │   └── processed/       # Cleaned data used for training
 │
+├── notebooks/           # Jupyter Notebooks
+│   └── titanic_eda.ipynb
+│
 ├── src/
 │   ├── __init__.py       
 |   ├── data.py          # Data loading and cleaning
 │   ├── features.py      # Feature engineering
 │   ├── model.py         # Model training and evaluation
 │   ├── predict.py       # Make predictions on new/unseen data
-|   └── visualization    # Data analysis and plotting scripts
+|   └── visualization/   # Data analysis and plotting scripts
 |       ├── eda.py       # Exploratory Data Analysis (EDA)
 │       └── plots.py     # Accuracy, confusion matrix, and other 
 │
