@@ -13,11 +13,15 @@ titanic-survival-prediction/
 │   └── processed/       # Cleaned data used for training
 │
 ├── src/
-│   ├── data.py          # Data loading and cleaning
+│   ├── __init__.py       
+|   ├── data.py          # Data loading and cleaning
 │   ├── features.py      # Feature engineering
 │   ├── model.py         # Model training and evaluation
-│   ├── predict.py       # Inference script
-│   └── **init**.py
+│   ├── predict.py       # Make predictions on new/unseen data
+|   └── visualization    # Data analysis and plotting scripts
+|       ├── eda.py       # Exploratory Data Analysis (EDA)
+│       └── plots.py     # Accuracy, confusion matrix, and other 
+│
 │
 ├── requirements.txt     # Python dependencies
 ├── .gitignore
@@ -50,6 +54,3 @@ python src/predict.py
 ## ✍️ Author
 
 * Rawan Sotohy
-
----
-
