@@ -17,13 +17,13 @@ titanic-survival-prediction/
 │
 ├── src/
 │   ├── __init__.py       
-|   ├── data.py          # Data loading and cleaning
+│   ├── data.py          # Data loading and cleaning
 │   ├── features.py      # Feature engineering
 │   ├── model.py         # Model training and evaluation
 │   ├── predict.py       # Make predictions on new/unseen data
-|   └── visualization/   # Data analysis and plotting scripts
-|       ├── eda.py       # Exploratory Data Analysis (EDA)
-│       └── plots.py     # Accuracy, confusion matrix, and other 
+│   └── visualization/   # Data analysis and plotting scripts
+│      ├── eda.py        # Exploratory Data Analysis (EDA)
+│      └── plots.py      # Accuracy, confusion matrix, and other 
 │
 ├── models/              # Saved model 
 │
